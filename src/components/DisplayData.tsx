@@ -3,7 +3,6 @@ import { useState } from "react";
 import { Todos } from "../Models/TodoModel";
 import { DeleteModal } from "./DeleteModal";
 
-import { deleteTask, editTask, isDoneTask } from "../store/features/todoSlice";
 import { useDispatch } from "react-redux";
 
 import { Button, ButtonGroup, Grid, TextField } from "@mui/material";
